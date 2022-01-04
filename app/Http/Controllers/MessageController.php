@@ -21,7 +21,7 @@ class MessageController extends Controller
 
         //Redirect
 
-        return redirect('/home');
+        return redirect('/home')->with('msg','Your Messages Posted To Admin');
     }
 
     public function getMessage(){

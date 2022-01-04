@@ -18,4 +18,5 @@
         {!! Form::submit('submit', ['class'=>'btn btn-success']) !!}
     </div>
     {!! Form::close() !!}
+    
 @endsection
